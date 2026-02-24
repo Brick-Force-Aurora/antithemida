@@ -3,7 +3,7 @@ Themida anti-debug bypass and Unity debug support helper for use in the Brick-Fo
 <br>
 The dll is meant to be loaded with a custom patch at the start of mono_set_commandline_arguments inside mono.dll.
 <br>
-Verbose debug output is printed via OutputDebugStringA and can be viewed with [DebugView](https://learn.microsoft.com/de-de/sysinternals/downloads/debugview).
+Verbose debug output is printed via *OutputDebugStringA* and can be viewed with [DebugView](https://learn.microsoft.com/de-de/sysinternals/downloads/debugview).
 # Config
 Reads config options from the Brick-Force Aurora Config.json file.
  - **kill_themida** - true, false - Restores Themida patches on *ntdll.DbgBreakPoint* and *ntdll.DbgUiRemoteBreakin*, hooks *kernelbase.IsDebuggerPresent* to set *PEB.BeingDebugged* to 0 and terminates Themida's anti-tamper thread once it calls *IsDebuggerPresent*.
