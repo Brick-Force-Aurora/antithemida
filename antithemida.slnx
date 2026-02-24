@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="antithemida/antithemida.vcxproj" Id="e8f7ad62-d01b-4286-94bf-79ae1fea059b" />
+</Solution>
